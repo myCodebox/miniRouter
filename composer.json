@@ -1,5 +1,5 @@
 {
-    "name": "myCodebox/miniRouter",
+    "name": "mycodebox/minirouter",
     "description": "A minimal PHP router",
     "type": "project",
     "require": {
