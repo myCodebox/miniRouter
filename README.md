@@ -68,7 +68,7 @@ composer require mycodebox/minirouter
 2. Example code:
 
 ```php
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use MyCodebox\MiniRouter\Core\MiniRouter;
 
@@ -76,21 +76,6 @@ $router = new MiniRouter();
 $router->get('/hello/{name}', function ($req, $res, $args) {
     return $res->withHeader('Content-Type', 'text/plain')
                 ->withBody('Hello, ' . $args['name'] . '!');
-});
-$router->dispatch();
-```
-
-### Option 2: Without Composer (direct include)
-
-```php
-require_once __DIR__ . '/src/Core/MiniRouter.php';
-
-use MyCodebox\MiniRouter\Core\MiniRouter;
-
-$router = new MiniRouter();
-$router->get('/hello/{name}', function ($req, $res, $args) {
-    return $res->withHeader('Content-Type', 'text/plain')
-               ->withBody('Hello, ' . $args['name'] . '!');
 });
 $router->dispatch();
 ```
