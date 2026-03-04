@@ -62,7 +62,7 @@ A minimalist, flexible PHP router for small and medium-sized projects.
 1. Install dependencies (only needed once):
 
 ```sh
-composer install
+composer require mycodebox/minirouter
 ```
 
 2. Example code:

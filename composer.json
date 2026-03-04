@@ -1,7 +1,7 @@
 {
     "name": "mycodebox/minirouter",
     "description": "A minimal PHP router",
-    "type": "project",
+    "type": "library",
     "require": {
         "php": ">=8.5"
     },
