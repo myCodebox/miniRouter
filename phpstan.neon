@@ -1,0 +1,8 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - example
+    excludePaths:
+        - tests (?)
+    treatPhpDocTypesAsCertain: false

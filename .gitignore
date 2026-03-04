@@ -1,0 +1,44 @@
+# Composer dependencies
+/vendor/
+
+# Composer itself
+/composer.phar
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/nbproject/
+/*.sublime-workspace
+/*.sublime-project
+
+# Logs and reports
+*.log
+*.cache
+*.tmp
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Coverage reports
+/coverage/
+
+# User-specific files
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Build and deployment
+/build/
+/dist/
